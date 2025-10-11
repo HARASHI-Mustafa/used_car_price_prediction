@@ -77,11 +77,11 @@ model = CatBoostRegressor(
 **Model Performance:**
 
 ```
-R² Score: 0.836
-Mean Absolute Error (MAE): 24,311 MAD
-Root Mean Square Error (RMSE): 37,544 MAD
-Mean Absolute Percentage Error (MAPE): 14.4%
-Approximate accuracy: 85.6%
++ R² Score: 0.836
++ Mean Absolute Error (MAE): 24,311 MAD
++ Root Mean Square Error (RMSE): 37,544 MAD
++ Mean Absolute Percentage Error (MAPE): 14.4%
++ Approximate accuracy: 85.6%
 ```
 
 ---
@@ -120,7 +120,7 @@ Approximate accuracy: 85.6%
 ```
 used_car_price_prediction/
 │
-├── app.py               # Main entry point and menu interface
+├── app.py                # Main entry point and menu interface
 ├── scraper.py            # Data scraping and database creation
 ├── data_cleaning.py      # Data cleaning and feature engineering
 ├── price_prediction.py   # Machine Learning model training and prediction
@@ -136,11 +136,10 @@ used_car_price_prediction/
 ## 5. Results Summary
 
 ```
-Total vehicles analyzed: 4,999
-R² = 0.836
-MAE = 24,311 MAD
-Accuracy ≈ 85.6%
-Model exported as: car_price_model_ultimate.pkl
+- Total vehicles analyzed: 4,999
+- R² = 0.836
+- MAE = 24,311 MAD
+- Accuracy ≈ 85.6%
 ```
 
 These results demonstrate strong predictive performance and confirm that a data-driven approach can accurately estimate missing vehicle prices in large datasets.
