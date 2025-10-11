@@ -121,7 +121,7 @@ Approximate accuracy: 85.6%
 used_car_price_prediction/
 │
 ├── main.py               # Main entry point and menu interface
-├── database.py           # Data scraping and database creation
+├── scraper.py            # Data scraping and database creation
 ├── data_cleaning.py      # Data cleaning and feature engineering
 ├── price_prediction.py   # Machine Learning model training and prediction
 ├── config.py             # Shared configuration and global settings
