@@ -154,4 +154,3 @@ These results demonstrate strong predictive performance and confirm that a data-
 * **SQLite3** – Lightweight local database
 * **CatBoost** – Gradient boosting model for regression
 * **Scikit-learn** – Metrics and preprocessing utilities
-* **Joblib** – Model persistence
