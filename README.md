@@ -1,8 +1,3 @@
-Voici ton **README complet et professionnel**, prêt à être copié-collé directement dans ton dépôt GitHub :
-
----
-
-```markdown
 # used_car_price_prediction
 
 ## 1. Project Overview
