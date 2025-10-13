@@ -142,6 +142,12 @@ def main():
         print(f"\nPredicting missing prices for {len(df_missing)} vehicles...")
         df_missing['price'] = predict_car_price_ultimate(df_missing, final_model, encoders, scaler)
         print(f"Prediction done")
+    
+    # # Rounding function
+    # def round_to_nearest_5000(x):
+    #     return int(round(x / 5000.0) * 5000)
+
+    # df_missing['price'] = df_missing['price'].apply(round_to_nearest_5000)
 
     # MERGE THE DATASETS
     df_final = pd.concat([df_train, df_missing], ignore_index=True)
@@ -161,3 +167,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
