@@ -2,6 +2,7 @@ from config import *
 from scraper import main as first_code
 from data_cleaning import main as second_code
 from price_prediction import main as third_code
+from test_model import main as fourth_code
 
 def menu():
     database_created = False
@@ -24,10 +25,11 @@ def menu():
             print("1. Create the dataset")
             print("2. Filter the dataset")
             print("3. Predict missing prices")
-            print("4. Exit")
+            print("4. Test the model")
+            print("5. Exit")
             print()
 
-            choice = int(input("Select an option (1-4): "))
+            choice = int(input("Select an option (1-5): "))
 
             if choice == 1:
                 first_code('https://www.avito.ma/fr/maroc/voitures_d_occasion-%C3%A0_vendre')
@@ -43,6 +45,11 @@ def menu():
                 else:
                     third_code()
             elif choice == 4:
+                if not database_created:
+                    print("The database does not exist. Please create it first.")
+                else:
+                    fourth_code()
+            elif choice == 5:
                 print("Goodbye!")
                 break
             else:
