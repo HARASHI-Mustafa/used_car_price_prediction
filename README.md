@@ -102,7 +102,7 @@ model = CatBoostRegressor(
 
 → These results demonstrate strong predictive performance and confirm that a data-driven approach can accurately estimate missing vehicle prices in large datasets.
 
-### Step 4: Testing (test_model.py)
+### Step 4: Testing (`test_model.py`)
 
 - Loads the trained model and encoders.
 - Runs test predictions on reference vehicles.
