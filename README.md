@@ -43,16 +43,12 @@ Build a robust pipeline to predict missing car prices based on attributes (Super
 
 **Example Output:**
 ```
-
 Starting Scraping...
 Page 1: 26%|█████████▏ | 10/38 [00:10<00:28, 1.00s/it]
 Reached limit (10 cars). Scraping completed successfully.
 Total cars saved: 10
 Total records exported: 10
-
 ```
-
----
 
 ### Step 2 : Data Cleaning (`data_cleaning.py`)
 - Removes duplicate records
@@ -65,16 +61,12 @@ Total records exported: 10
 
 **Example Summary:**
 ```
-
 Initial dataset size: 8,448 rows
 Removed 320 duplicate rows
 Removed 54 rows with missing brand/model
 Filled the remaining missing 'year' with global mode: 2018
 Filled remaining missing 'mileage' with global median: 130,000
-
 ````
-
----
 
 ### Step 3 : Price Prediction (`price_prediction.py`)
 - Trains a **CatBoostRegressor** model on records with known prices.
@@ -191,6 +183,7 @@ pip install -r requirements.txt
 ```
 python app.py
 ```
+
 - **Menu Options**
 1. Create the dataset (scrape data)
 2. Filter the dataset (cleaning)
@@ -199,13 +192,11 @@ python app.py
 5. Exit
 
 - **Output files**
- - `used_cars.db` → Raw + cleaned data
- - `catboost_model.cbm` → Trained ML model
- - `usedCars_with_predicted_prices.csv` → Final dataset with prices
+  - `used_cars.db` → Raw + cleaned data
+  - `catboost_model.cbm` → Trained ML model
+  - `usedCars_with_predicted_prices.csv` → Final dataset with prices
 
 
-- **Author** → **HARRACHI Mustapha**
-
+- **Author** : **HARRACHI Mustapha**
 📍  Data Science & AI Enthusiast
-
 📧 harrachimustapha25@gmail.com
