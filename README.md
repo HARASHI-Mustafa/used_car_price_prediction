@@ -97,7 +97,7 @@ model = CatBoostRegressor(
 + Mean Absolute Error (MAE): 24,311 MAD
 + Root Mean Square Error (RMSE): 37,544 MAD
 + Mean Absolute Percentage Error (MAPE): 14.4%
-+ Approximate accuracy: 85.6%
++ Accuracy: 85.6%
 ```
 
 → These results demonstrate strong predictive performance and confirm that a data-driven approach can accurately estimate missing vehicle prices in large datasets.
