@@ -121,6 +121,7 @@ Example Predictions
 
 ## 4. Project Structure
 
+```
 used_car_price_prediction/
 │
 ├── app.py                     # Main CLI menu
@@ -140,6 +141,7 @@ used_car_price_prediction/
 ├── requirements.txt
 ├── .gitignore
 └── README.md
+```
 
 ---
 
@@ -198,5 +200,7 @@ python app.py
 
 
 - **Author** : **HARRACHI Mustapha**
+
 📍  Data Science & AI Enthusiast
+
 📧 harrachimustapha25@gmail.com
