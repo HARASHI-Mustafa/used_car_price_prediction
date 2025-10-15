@@ -200,7 +200,4 @@ python app.py
 
 
 - **Author** : **HARRACHI Mustapha**
-
-📍  Data Science & AI Enthusiast
-
-📧 harrachimustapha25@gmail.com
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
