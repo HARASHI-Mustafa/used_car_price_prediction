@@ -1,4 +1,4 @@
-# used Car Price Prediction
+# (: Used Car Price Prediction :)
 
 ## 1. Project Overview
 This project provides an **end-to-end machine learning pipeline** for **predicting missing car prices** in online used car listings.
@@ -128,6 +128,7 @@ Example Predictions
 ---
 
 ## 4. Project Structure
+
 used_car_price_prediction/
 │
 ├── app.py                     # Main CLI menu
@@ -184,13 +185,11 @@ used_car_price_prediction/
 - **Install dependencies** 
 ```
 pip install -r requirements.txt
-
 ```
 
 - **Launch the CLI Menu**
 ```
 python app.py
-
 ```
 - **Menu Options**
 1. Create the dataset (scrape data)
@@ -204,6 +203,9 @@ python app.py
  - `catboost_model.cbm` → Trained ML model
  - `usedCars_with_predicted_prices.csv` → Final dataset with prices
 
+
 - **Author** → **HARRACHI Mustapha**
+
 📍  Data Science & AI Enthusiast
+
 📧 harrachimustapha25@gmail.com
